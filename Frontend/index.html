@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Ticket System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Ticket System</h1>
+      <p class="sub">Erstelle ein Support-Ticket. Du erhältst direkt eine Bestätigung.</p>
+    </header>
+
+    <section class="card">
+      <div id="banner" class="banner" role="status" aria-live="polite" hidden></div>
+
+      <form id="ticketForm" novalidate>
+        <div class="grid">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" autocomplete="name" />
+            <small class="hint" id="nameHint">Mindestens 2 Zeichen.</small>
+          </div>
+
+          <div class="field">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" autocomplete="email" />
+            <small class="hint" id="emailHint">z.B. jeff@beispiel.com</small>
+          </div>
+
+          <div class="field field-full">
+            <label for="message">Nachricht</label>
+            <textarea id="message" rows="5"></textarea>
+            <small class="hint" id="messageHint">Mindestens 10 Zeichen.</small>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button type="submit" id="submitBtn">Ticket absenden</button>
+          <button type="button" class="secondary" id="resetBtn">Zurücksetzen</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <span class="muted">Demo-Frontend • Vanilla JS • REST API • JMergenio</span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
