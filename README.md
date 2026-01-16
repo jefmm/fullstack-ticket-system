@@ -15,7 +15,7 @@ und externer Workflow-Automatisierung.
 
 ---
 
-## 🏗️ Architektur (vereinfacht)
+## Architektur 
 
 Frontend (HTML / CSS / JavaScript)  
 → ASP.NET Core REST API  
@@ -25,7 +25,7 @@ Frontend (HTML / CSS / JavaScript)
 
 ---
 
-## 🧑‍💻 Tech Stack
+## Tech Stack
 - Backend: ASP.NET Core (C#), Entity Framework Core
 - Database: SQLite
 - Frontend: HTML, CSS, Vanilla JavaScript
@@ -34,7 +34,7 @@ Frontend (HTML / CSS / JavaScript)
 
 ---
 
-## 🔐 Workflow-Integration (n8n)
+## Workflow-Integration (n8n)
 - Kommunikation über Webhooks
 - Secret-basierte Validierung der Requests
 - Definierte HTTP-Responses (200 / 401)
@@ -42,7 +42,7 @@ Frontend (HTML / CSS / JavaScript)
 
 ---
 
-## 🧪 Testing
+## Testing
 - API-Tests über Swagger UI
 - End-to-End-Tests vom Frontend bis zur E-Mail-Auslieferung
 - Debugging von CORS-, HTTP- und Webhook-Problemen
@@ -62,16 +62,3 @@ Frontend (HTML / CSS / JavaScript)
 
 ### Logging in Google Sheets
 ![Google Sheets](docs/Google-Sheets.png)
-
----
-
-## ▶️ Lokales Setup
-
-```bash
-# Backend
-cd Backend
-dotnet run
-
-# Frontend
-cd Frontend
-python3 -m http.server 5500
