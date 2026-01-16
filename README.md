@@ -52,16 +52,16 @@ Frontend (HTML / CSS / JavaScript)
 ## 📸 Screenshots
 
 ### REST API (Swagger / OpenAPI)
-![Swagger API](docs/swagger-api.png)
+![Swagger API](docs/swagger-API.png)
 
 ### Frontend – Ticket erfolgreich erstellt
-![Frontend](docs/frontend-ticket-created.png)
+![Frontend](docs/Frontend.png)
 
 ### n8n Workflow (Webhook → Mail → Google Sheets)
-![n8n Workflow](docs/n8n-workflow.png)
+![n8n Workflow](docs/n8n workflow.png)
 
 ### Logging in Google Sheets
-![Google Sheets](docs/google-sheets-log.png)
+![Google Sheets](docs/Google Sheets.png)
 
 ---
 
