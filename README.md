@@ -30,7 +30,7 @@ Frontend (HTML / CSS / JavaScript)
 - Database: SQLite
 - Frontend: HTML, CSS, Vanilla JavaScript
 - Integration: n8n Cloud, Webhooks
-- Tooling: Swagger / OpenAPI, Git
+- Tooling: Swagger, Git
 
 ---
 
