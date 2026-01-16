@@ -58,10 +58,10 @@ Frontend (HTML / CSS / JavaScript)
 ![Frontend](docs/Frontend.png)
 
 ### n8n Workflow (Webhook → Mail → Google Sheets)
-![n8n Workflow](docs/n8n workflow.png)
+![n8n Workflow](docs/n8n-workflow.png)
 
 ### Logging in Google Sheets
-![Google Sheets](docs/Google Sheets.png)
+![Google Sheets](docs/Google-Sheets.png)
 
 ---
 
